@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Visualisation du Modèle de Boîte CSS</title>
+        <style></style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="box" id="box">
+                <div class="inner-box">Contenu</div>
+            </div>
+        </div>
+        <div id="controllers">
+            <div>
+                <label for="margin">Margin (marge externe):</label>
+                <input type="range" id="margin" min="0" max="50" value="20" />
+            </div>
+            <div>
+                <label for="border">Border (bordure):</label>
+                <input type="range" id="border" min="0" max="50" value="10" />
+            </div>
+            <div>
+                <label for="padding">Padding (marge interne):</label>
+                <input type="range" id="padding" min="0" max="50" value="20" />
+            </div>
+            <div>
+                <label for="size">Taille élément:</label>
+                <input type="range" id="size" min="50" max="300" value="200" />
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
