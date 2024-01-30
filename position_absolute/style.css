@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    gap: 50px;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #333;
+}
+
+.objet {
+    border: 1px solid blue;
+    width: 50px;
+    height: 50px;
+}
+
+#objet-absolute {
+    background-color: #3498db;
+    position: static;
+    top: 0px;
+    left: 0px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Positionnement Absolu</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="objet"></div>
+            <div class="objet" id="objet-absolute"></div>
+            <div class="objet"></div>
+        </div>
+        <div class="controls">
+            <p>
+                La grande boite est en position relative. La boite bleue peut
+                être placée de façon absolue.
+            </p>
+            <label for="togglePosition">Activer le positionnement absolu</label>
+            <input type="checkbox" id="togglePosition" />
+            <br />
+            <label for="xPosition">Position X :</label>
+            <input type="range" id="xPosition" min="0" max="250" value="100" />
+            <br />
+            <label for="yPosition">Position Y :</label>
+            <input type="range" id="yPosition" min="0" max="250" value="50" />
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
